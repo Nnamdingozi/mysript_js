@@ -29,3 +29,11 @@ function getMonth(arr1) {
                   -   -           
                     - `
       }      
+      function mixedMessage(arr1, arr2, arr3) {
+        let myMonth = getMonth(arr1);
+        let myZodiacSign = getzodaicSign(arr2);
+        let myAdvice = getMessage(arr3);
+        let myascii = acsiiArt();
+        console.log(`Hi,your palm says: You love the month of ${myMonth}. You will make great friends with ${myZodiacSign}.You should ${myAdvice}. ${myascii}`)
+      }
+      mixedMessage(months, zodiacSign, advice)
