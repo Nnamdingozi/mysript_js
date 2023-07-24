@@ -11,3 +11,21 @@ const getRandNum = (arr) => {
         return Math.floor(Math.random() * arr.length)
 }
 console.log(getRandNum(months));
+function getMonth(arr1) {
+        return arr1[getRandNum(arr1)]
+        
+      };
+      function getzodaicSign(arr2) {
+        return arr2[getRandNum(arr2)]
+        
+      };
+      function getMessage(arr3) {
+        return arr3[getRandNum(arr3)]
+      };
+      function acsiiArt() {
+        return ` 
+                  -   -
+                - 0   0 -
+                  -   -           
+                    - `
+      }      
